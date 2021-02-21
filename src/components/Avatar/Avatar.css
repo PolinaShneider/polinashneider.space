@@ -19,6 +19,7 @@
     border: var(--size-border) solid var(--color-background, white);
     border-radius: 50%;
     object-fit: cover;
+    flex-shrink: 0;
 }
 .Avatar .photo > img {
     border-width: calc(0.5 * var(--size-border));
