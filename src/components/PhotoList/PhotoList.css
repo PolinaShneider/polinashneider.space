@@ -1,0 +1,8 @@
+.PhotoList {
+    display: flex;
+    max-width: 900px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
