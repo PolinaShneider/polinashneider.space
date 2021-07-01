@@ -22,7 +22,9 @@ function Bio() {
                     Менторю: HTML Academy 😇<br/>
                 </p>
                 <p>
-                    <a href="https://github.com/PolinaShneider" name="button1" onClick="dataLayer.push({'event': 'button1-click'});">GitHub</a> ♥
+                    <a href="https://github.com/PolinaShneider" name="button1" onClick={() => {
+                        window.dataLayer.push({'event': 'button1-click'});
+                    }}>GitHub</a> ♥
                     <a href="https://www.linkedin.com/in/natalya-shurygina/"> LinkedIn</a> ♥
                     <a href="https://github.com/PolinaShneider"> Telegram</a>
                 </p>

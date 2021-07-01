@@ -39,6 +39,13 @@ function App() {
     iframe.style = "display:none;visibility:hidden";
     bodyScript.append(iframe);
     document.body.prepend(bodyScript);
+
+    const dataLayerScript = document.createElement('script');
+    dataLayerScript.innerHTML = `dataLayer = [{
+    'pageCategory': 'signup',
+    'visitorType': 'high-value'
+  }];`;
+    document.body.prepend(dataLayerScript);
 })();
 
 export default App;
